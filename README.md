@@ -1,5 +1,8 @@
 # Evaluation for HumanEval(+) and MBPP(+)
 
+## Update
+2024-04-30: we have released our first finetuned 6.7B chat model [aigcode/AIGCodeGeek-DS-6.7B](https://huggingface.co/aigcode/AIGCodeGeek-DS-6.7B) and provided code for EvalPlus evaluation in this repo.
+
 This repository contains scripts and code to run [EvalPlus](https://github.com/evalplus/evalplus) benchmarks on AIGCodeGeek series models. 
 
 EvalPlus includes HumanEval(+) and MBPP(+) datasets for evaluating code completion preformance.
