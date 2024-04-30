@@ -1,0 +1,5 @@
+rich
+fire
+accelerate
+vllm
+stop-sequencer
