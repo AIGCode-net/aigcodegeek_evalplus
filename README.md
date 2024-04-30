@@ -8,7 +8,21 @@ This repository contains scripts and code to run [EvalPlus](https://github.com/e
 EvalPlus includes HumanEval(+) and MBPP(+) datasets for evaluating code completion preformance.
 
 ## 1. Generations and Results
-`generations/` stores the generation files and `results/` gives the corresponding eval results. 
+`generations/` stores the generation files and `results/` gives the corresponding eval results:
+```bash
+generations
+├── humaneval
+│   └── aigcode--AIGCodeGeek-DS-6.7B_temp_0.0
+├── mbpp
+    └── aigcode--AIGCodeGeek-DS-6.7B_temp_0.0
+```
+```bash
+results
+├── humaneval
+│   └── aigcodev1_temp_0.0.txt
+└── mbpp
+    └── aigcodev1_temp_0.0.txt
+```
 
 Both Base and Plus results are reported:
 <table style="text-align:center;">
